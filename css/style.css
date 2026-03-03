@@ -28,7 +28,7 @@
    --whatsapp-hover: #1EBE5D;
 
    /* — Tipografia — */
-   --font-heading: 'Space Grotesk', system-ui, sans-serif;
+   --font-heading: 'Inter', system-ui, sans-serif;
    --font-body: 'Inter', system-ui, sans-serif;
 
    /* — Sombras — */
@@ -89,21 +89,21 @@ ul { list-style: none; }
    ========================================= */
 h1, h2, h3, h4, h5 {
    font-family: var(--font-heading);
-   font-weight: 700;
-   line-height: 1.12;
-   /* Space Grotesk tem tracking equilibrado nativamente */
-   letter-spacing: -0.02em;
+   font-weight: 600;
+   line-height: 1.15;
+   /* Outfit tem formas abertas — tracking positivo leve valoriza os caracteres */
+   letter-spacing: 0.005em;
    margin-bottom: 1rem;
    color: var(--light-text);
    text-transform: none;
 }
 
-/* Escala equilibrada: presença sem grito */
-h1 { font-size: clamp(2rem, 4vw, 3.5rem); font-weight: 700; line-height: 1.08; letter-spacing: -0.025em; }
-h2 { font-size: clamp(1.625rem, 2.8vw, 2.5rem); font-weight: 700; }
-h3 { font-size: clamp(1.125rem, 1.8vw, 1.5rem); font-weight: 600; letter-spacing: -0.01em; }
-h4 { font-size: clamp(0.9375rem, 1.5vw, 1.125rem); font-weight: 500; }
-h5 { font-size: 0.875rem; font-weight: 500; }
+/* Escala proporcional e equilibrada */
+h1 { font-size: clamp(2.125rem, 4vw, 3.625rem); font-weight: 600; line-height: 1.1; letter-spacing: -0.01em; }
+h2 { font-size: clamp(1.800rem, 2.8vw, 2.625rem); font-weight: 600; }
+h3 { font-size: clamp(1.125rem, 1.8vw, 1.5rem); font-weight: 600; }
+h4 { font-size: clamp(1rem, 1.5vw, 1.125rem); font-weight: 500; }
+h5 { font-size: 0.9375rem; font-weight: 500; }
 
 p {
    margin-bottom: 1rem;
